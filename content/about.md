@@ -7,7 +7,7 @@ I'm Casey Knox, a Research Scientist at [Altec Research](https://www.altecresear
 ## Non-Contact Physiological Monitoring [Link](https://www.diu.mil/latest/department-of-defense-defense-innovation-unit-announce-polygraph-effort-to)
 *Research Scientist at Altec Research • Current*
 
-Designed an innovative facial landmark tracking system integrating ToF and thermal imaging, achieving sub-pixel accuracy (<1.3px reprojection error) for biomedical applications. 
+Designed an innovative facial landmark tracking system integrating ToF and thermal imaging, achieving sub-pixel accuracy (<1.3px reprojection error) for biomedical applications (patent pending). 
 - Developed real-time thermal nostril segmentation algorithm fusing ToF and thermal imaging for real time respiratory monitoring
 - Utilized classical computer vision techniques such as the Laplacian of Gaussian, edge removal, and connected components for retrieving pore activity index (a correlate of electrodermal activity) from thermal images of the hand
 
