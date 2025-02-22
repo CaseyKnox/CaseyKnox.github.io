@@ -22,6 +22,29 @@ a:visited {
     color: inherit;
 }
 
+.home-link {
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    color: var(--text-color);
+    opacity: 0.6;
+    transition: opacity 0.2s;
+    border-radius: 50%;
+}
+
+.home-link:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+[data-theme="dark"] .home-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
