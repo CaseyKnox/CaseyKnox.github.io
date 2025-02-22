@@ -1,6 +1,6 @@
 # Summary
 
-I'm Casey Knox, a Research Scientist at [Altec](https://www.altecresearch.com/) specializing in Computer Vision and real-time sensor systems. I focus on developing innovative solutions in 3D pose estimation, multi-modal imaging, and distributed computing architectures.
+I'm Casey Knox, a Research Scientist at [Altec Research](https://www.altecresearch.com/) specializing in Computer Vision and real-time sensor systems. I focus on developing innovative solutions in 3D pose estimation, multi-modal imaging, and distributed computing architectures.
 
 # Selected Work
 
