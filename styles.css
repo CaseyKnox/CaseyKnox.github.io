@@ -18,6 +18,10 @@
     box-sizing: border-box;
 }
 
+a:visited {
+    color: inherit;
+}
+
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     background-color: var(--bg-color);
@@ -134,10 +138,53 @@ h1 {
     margin-bottom: 2rem;
 }
 
+.work-item {
+    position: relative;
+}
+
 .work-item h3 {
     font-size: 1.2rem;
-    margin-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
     color: var(--text-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.work-item h3 a, .work-item h3 a:visited {
+    color: var(--text-color);
+    text-decoration: underline;
+    font-size: 0.9em;
+}
+
+.work-item h3 a:hover {
+    opacity: 0.7;
+}
+
+.work-item p a, .work-item p a:visited,
+.work-item li a, .work-item li a:visited {
+    color: var(--text-color);
+    text-decoration: underline;
+}
+
+.work-item p a:hover, .work-item li a:hover {
+    opacity: 0.7;
+}
+
+.work-item > a {
+    display: inline-block;
+    font-size: 0.9rem;
+    color: var(--link-color);
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+    opacity: 0.9;
+}
+
+.work-item > a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+    opacity: 1;
 }
 
 .work-item .meta {

@@ -32,7 +32,8 @@ document.addEventListener('DOMContentLoaded', async () => {
                 div.className = currentSection.id === 'selected-work' ? 'work-item' : 'skill-category';
                 
                 const h3 = document.createElement('h3');
-                h3.textContent = element.textContent;
+                h3.innerHTML = element.innerHTML;
+                
                 div.appendChild(h3);
                 currentSection.appendChild(div);
             } else if (element.tagName === 'EM') {
