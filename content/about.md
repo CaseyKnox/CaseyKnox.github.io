@@ -1,18 +1,18 @@
 # Summary
 
-I'm Casey Knox, a Research Scientist at [Altec Research](https://www.altecresearch.com/) specializing in Computer Vision and real-time sensor systems. I focus on developing innovative solutions in 3D pose estimation, multi-modal imaging, and distributed computing architectures.
+I'm Casey Knox, a Research Scientist at [Delsys (Altec Research)](https://www.altecresearch.com) specializing in Computer Vision and real-time sensor systems. I focus on developing innovative solutions in 3D pose estimation, multi-modal imaging, and distributed computing architectures.
 
 # Selected Work
 
 ## Non-Contact Physiological Monitoring [Link](https://www.diu.mil/latest/department-of-defense-defense-innovation-unit-announce-polygraph-effort-to)
-*Research Scientist at Altec Research • Current*
+*Research Scientist at Delsys • Current*
 
 Designed an innovative facial landmark tracking system integrating ToF and thermal imaging, achieving sub-pixel accuracy (<1.3px reprojection error) for biomedical applications (patent pending). 
 - Developed real-time thermal nostril segmentation algorithm fusing ToF and thermal imaging for real time respiratory monitoring
 - Utilized classical computer vision techniques such as the Laplacian of Gaussian, edge removal, and connected components for retrieving pore activity index (a correlate of electrodermal activity) from thermal images of the hand
 
 ## 3D Human Pose Estimation [Link](https://altecresearch.com/non-contact-sensing/)
-*Research Scientist at Altec Research • Current*
+*Research Scientist at Delsys • Current*
 
 Engineered a novel real-time stereo 3D pose estimation system that achieves sub-pixel accuracy by combining SOTA 2D pose detection (Meta's [Sapiens](https://about.meta.com/realitylabs/codecavatars/sapiens/)) with custom epipolar geometry. Key innovations:
 
@@ -20,7 +20,7 @@ Engineered a novel real-time stereo 3D pose estimation system that achieves sub-
 - Directed a junior engineer’s effort to quantize and run Meta’s [sapiens](https://about.meta.com/realitylabs/codecavatars/sapiens/) 0.3B model on an edge device. Model quantization produced a 4x speedup over the original
 
 ## Distributed Sensor Fusion Architecture
-*Research Scientist at Altec Research • Current*
+*Research Scientist at [Delsys](https://www.altecresearch.com/) • Current*
 
 Led development of a high-performance distributed sensor fusion system achieving 60Hz processing with <50ms end-to-end latency. The system processes 640x576 16-bit images from multiple cameras using a modular node architecture built on ZeroMQ. Key achievements:
 
